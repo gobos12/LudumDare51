@@ -59,5 +59,14 @@ function fsm_playerTemporal(){
 		DN,
 		DN
 	)
+	
+	states[$ "Init"] = new State (
+		DN,
+		function (target, state_machine) {
+			state_machine.transition("10");
+		},
+		DN
+	)
 
+	 return states
 }

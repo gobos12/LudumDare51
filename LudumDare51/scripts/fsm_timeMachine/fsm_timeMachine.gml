@@ -44,5 +44,15 @@ function fsm_timeMachine() {
 		DN,
 		DN
 	)
+	
+	states[$ "Init"] = new State (
+		DN,
+		function (target, state_machine) {
+			state_machine.transition("Stage10");
+		},
+		DN
+	)
+
+	 return states
 
 }
