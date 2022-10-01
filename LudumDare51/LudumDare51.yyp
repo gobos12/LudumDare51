@@ -9,6 +9,10 @@
     {"id":{"name":"StateMachine","path":"scripts/StateMachine/StateMachine.yy",},"order":1,},
     {"id":{"name":"hello","path":"sprites/hello/hello.yy",},"order":0,},
     {"id":{"name":"fsm_timeMachine","path":"scripts/fsm_timeMachine/fsm_timeMachine.yy",},"order":0,},
+    {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":1,},
+    {"id":{"name":"hello","path":"sprites/hello/hello.yy",},"order":0,},
+    {"id":{"name":"bg_test","path":"sprites/bg_test/bg_test.yy",},"order":1,},
+    {"id":{"name":"dragtest","path":"objects/dragtest/dragtest.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
