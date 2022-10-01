@@ -34,7 +34,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controller",
-    "path": "folders/Objects/Controller.yy",
+    "name": "Controllers",
+    "path": "folders/Objects/Controllers.yy",
   },
 }
