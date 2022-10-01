@@ -29,7 +29,7 @@ function resetForwardTime () {
 
 		
 
-forwardTime = floor(step_count / room_speed);
+forwardTime = step_count / room_speed;
 gameTime = initialTime - forwardTime;
 displayTime = floor(gameTime / (INTERVAL/10));
 
@@ -38,6 +38,9 @@ function getTime() {
 }
 function getDisplayTime() {
 	return displayTime
+}
+function getForwardSeconds() {
+	return floor(forwardTime);
 }
 
 
