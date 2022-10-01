@@ -11,12 +11,53 @@ function fsm_playerTemporal(){
 		},
 		function (target, state_machine) {
 			if (obj_countdown.getTime() <= 0) {
-				state_machine.transition("10")
+				switch (obj_timeMachine.state_machine.state_name) {
+					case "Stage10": 
+						state_machine.transition("10");
+						break
+					case "Stage20":
+						state_machine.transition("20");
+						break
+					case "Stage30":
+						state_machine.transition("30");
+						break;
+					case "Disabled":
+						state_machine.transition("Endgame");
+						break;
+				}
+			}
+		},
+		DN	
+	)
+	
+	states[$ "20"] = new State (
+		function (target, state_machine) {
+			obj_countdown.resetForwardTime();
+		},
+		function (target, state_machine) {
+			if (obj_countdown.getTime() <= 15) {
+				state_machine.transition("10");
 			}
 		},
 		DN
-		
 	)
 	
+	states[$ "30"] = new State (
+		function (target, state_machine) {
+			obj_countdown.resetForwardTime();
+		},
+		function (target, state_machine) {
+			if (obj_countdown.getTime() <= 30) {
+				state_machine.transition("20");
+			}
+		},
+		DN
+	)
+	
+	states[$ "Endgame"] = new State (
+		DN,
+		DN,
+		DN
+	)
 
 }

@@ -3,7 +3,7 @@
 
 step_count = 0
 forwardTime = 0
-
+initialTime = INTERVAL;
 
 
 
