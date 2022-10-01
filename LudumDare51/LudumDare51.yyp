@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"How to use the state machine","path":"notes/How to use the state machine/How to use the state machine.yy",},"order":0,},
     {"id":{"name":"State","path":"scripts/State/State.yy",},"order":1,},
+    {"id":{"name":"obj_fuelTank","path":"objects/obj_fuelTank/obj_fuelTank.yy",},"order":1,},
     {"id":{"name":"obj_timeMachine","path":"objects/obj_timeMachine/obj_timeMachine.yy",},"order":0,},
     {"id":{"name":"StateMachine","path":"scripts/StateMachine/StateMachine.yy",},"order":2,},
     {"id":{"name":"fsm_playerTemporal","path":"scripts/fsm_playerTemporal/fsm_playerTemporal.yy",},"order":1,},
@@ -47,7 +48,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":14,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StateMachine Base Scripts","folderPath":"folders/Scripts/StateMachine Base Scripts.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Finite State Machines","folderPath":"folders/Scripts/Finite State Machines.yy","order":1,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controller","folderPath":"folders/Objects/Controller.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controllers","folderPath":"folders/Objects/Controllers.yy","order":1,},
+
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
