@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "audio_Manager",
+  "name": "audio_manager",
   "spriteId": null,
   "solid": false,
   "visible": false,

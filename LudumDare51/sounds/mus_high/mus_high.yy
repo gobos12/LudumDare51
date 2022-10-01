@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "LD51BackgroundMusicLowIntensity",
-  "soundFile": "LD51BackgroundMusicLowIntensity.wav",
+  "name": "mus_high",
+  "soundFile": "mus_high.wav",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
