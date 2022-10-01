@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "LudumDare51",
   "resources": [
+    {"id":{"name":"How to use the state machine","path":"notes/How to use the state machine/How to use the state machine.yy",},"order":2,},
     {"id":{"name":"State","path":"scripts/State/State.yy",},"order":0,},
     {"id":{"name":"StateMachine","path":"scripts/StateMachine/StateMachine.yy",},"order":1,},
     {"id":{"name":"hello","path":"sprites/hello/hello.yy",},"order":0,},
@@ -37,7 +38,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":14,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StateMachine Scripts","folderPath":"folders/Scripts/StateMachine Scripts.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StateMachine Base Scripts","folderPath":"folders/Scripts/StateMachine Base Scripts.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"State Machines","folderPath":"folders/Scripts/State Machines.yy","order":3,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
