@@ -1,0 +1,22 @@
+// fsm for time machine
+
+function fsm_timeMachine() {
+	
+	var states = {} // struct initialization
+	static DN = function () {} // function that does nothing
+	
+	states[$ "Stage10"] = new State (
+		DN,
+		function (target, state_machine) {
+			if (target.puzzle1Finished) {
+				state_machine.transition("Stage20");
+			}
+			else if (target.puzzle1Broken && target.puzzle2Broken && target.codeEntered) {
+				state_machine.transition("Disabled");
+			}
+		},
+		DN
+	)
+
+
+}
