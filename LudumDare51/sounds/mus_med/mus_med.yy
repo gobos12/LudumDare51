@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "LD51BackgroundMusicMedIntensity",
-  "soundFile": "LD51BackgroundMusicMedIntensity.wav",
+  "name": "mus_med",
+  "soundFile": "mus_med.wav",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
