@@ -1,4 +1,4 @@
-1) Create a a script specific to object in the State Machines group
+1) Create a a script specific to object in the Finite State Machines (FSM) group
 	Example: fsm_myObject
 	a) create a states struct
 //		var states = {};
