@@ -8,12 +8,13 @@ function fsm_timeMachine() {
 	states[$ "Stage10"] = new State (
 		function (target, state_machine) {
 			target.isEnabled = true;
+			target.puzzlesFinished = 0;
 		},
 		function (target, state_machine) {
-			if (target.puzzle1Finished) {
+			if (target.puzzlesFinished == 1) {
 				state_machine.transition("Stage20");
 			}
-			else if (target.puzzle1Broken && target.puzzle2Broken && target.codeEntered) {
+			else if ((target.puzzlesDeactivated == 2) && target.codeEntered) {
 				state_machine.transition("Disabled");
 			}
 		},
@@ -23,7 +24,7 @@ function fsm_timeMachine() {
 	states[$ "Stage20"] = new State (
 		DN,
 		function (target, state_machine) {
-			if (target.puzzle2Finished) {
+			if (target.puzzlesFinished == 2) {
 				state_machine.transition("Stage30");
 			}
 		},
@@ -43,5 +44,15 @@ function fsm_timeMachine() {
 		DN,
 		DN
 	)
+	
+	states[$ "Init"] = new State (
+		DN,
+		function (target, state_machine) {
+			state_machine.transition("Stage10");
+		},
+		DN
+	)
+
+	 return states
 
 }

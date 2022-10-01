@@ -9,7 +9,12 @@
     {"id":{"name":"mus_low","path":"sounds/mus_low/mus_low.yy",},"order":0,},
     {"id":{"name":"Alarm","path":"sounds/Alarm/Alarm.yy",},"order":4,},
     {"id":{"name":"State","path":"scripts/State/State.yy",},"order":1,},
+
     {"id":{"name":"mus_high","path":"sounds/mus_high/mus_high.yy",},"order":2,},
+
+    {"id":{"name":"obj_fuelTank","path":"objects/obj_fuelTank/obj_fuelTank.yy",},"order":1,},
+    {"id":{"name":"LD51BackgroundMusicHighIntensity","path":"sounds/LD51BackgroundMusicHighIntensity/LD51BackgroundMusicHighIntensity.yy",},"order":2,},
+
     {"id":{"name":"Variety_of_Clicks","path":"sounds/Variety_of_Clicks/Variety_of_Clicks.yy",},"order":3,},
     {"id":{"name":"obj_timeMachine","path":"objects/obj_timeMachine/obj_timeMachine.yy",},"order":0,},
     {"id":{"name":"PoppingSound","path":"sounds/PoppingSound/PoppingSound.yy",},"order":1,},
@@ -17,14 +22,18 @@
     {"id":{"name":"snd_mouseClick","path":"sounds/snd_mouseClick/snd_mouseClick.yy",},"order":6,},
     {"id":{"name":"audio_manager","path":"objects/audio_manager/audio_manager.yy",},"order":2,},
     {"id":{"name":"StateMachine","path":"scripts/StateMachine/StateMachine.yy",},"order":2,},
+    {"id":{"name":"fsm_playerTemporal","path":"scripts/fsm_playerTemporal/fsm_playerTemporal.yy",},"order":1,},
     {"id":{"name":"Centrifuge","path":"sounds/Centrifuge/Centrifuge.yy",},"order":5,},
     {"id":{"name":"Radio_Static","path":"sounds/Radio_Static/Radio_Static.yy",},"order":2,},
     {"id":{"name":"bg_lab02","path":"sprites/bg_lab02/bg_lab02.yy",},"order":2,},
     {"id":{"name":"mus_med","path":"sounds/mus_med/mus_med.yy",},"order":1,},
     {"id":{"name":"LoopReset","path":"sounds/LoopReset/LoopReset.yy",},"order":0,},
     {"id":{"name":"fsm_timeMachine","path":"scripts/fsm_timeMachine/fsm_timeMachine.yy",},"order":0,},
+    {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":1,},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":1,},
+    {"id":{"name":"obj_countdown","path":"objects/obj_countdown/obj_countdown.yy",},"order":2,},
     {"id":{"name":"bg_test","path":"sprites/bg_test/bg_test.yy",},"order":1,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
     {"id":{"name":"dragtest","path":"objects/dragtest/dragtest.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -41,6 +50,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -48,7 +58,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controller","folderPath":"folders/Objects/Controller.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
@@ -64,6 +73,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Effects","folderPath":"folders/Sounds/Effects.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controllers","folderPath":"folders/Objects/Controllers.yy","order":1,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -73,6 +83,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.8.0.34",
   },
 }
