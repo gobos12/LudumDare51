@@ -16,7 +16,7 @@
     {"id":{"name":"PoppingSound","path":"sounds/PoppingSound/PoppingSound.yy",},"order":1,},
     {"id":{"name":"spr_desk","path":"sprites/spr_desk/spr_desk.yy",},"order":1,},
     {"id":{"name":"snd_mouseClick","path":"sounds/snd_mouseClick/snd_mouseClick.yy",},"order":6,},
-    {"id":{"name":"audio_manager","path":"objects/audio_manager/audio_manager.yy",},"order":2,},
+    {"id":{"name":"audio_manager","path":"objects/audio_manager/audio_manager.yy",},"order":4,},
     {"id":{"name":"StateMachine","path":"scripts/StateMachine/StateMachine.yy",},"order":2,},
     {"id":{"name":"fsm_playerTemporal","path":"scripts/fsm_playerTemporal/fsm_playerTemporal.yy",},"order":1,},
     {"id":{"name":"Centrifuge","path":"sounds/Centrifuge/Centrifuge.yy",},"order":5,},
