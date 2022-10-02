@@ -4,5 +4,14 @@ function fsm_fuelTank() {
 
 	var states = {} // struct initialization
 	static DN = function () {} // function that does nothing
+	
+	states[$ "Empty"] = new State (
+		DN,
+		function (target, state_machine) {
+			if (!target.isEmpty) {
+				
+			}
+		}
+	)
 
 }
