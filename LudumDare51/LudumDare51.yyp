@@ -20,8 +20,15 @@
     {"id":{"name":"State","path":"scripts/State/State.yy",},"order":1,},
     {"id":{"name":"obj_gear1","path":"objects/obj_gear1/obj_gear1.yy",},"order":7,},
     {"id":{"name":"obj_fuelTank","path":"objects/obj_fuelTank/obj_fuelTank.yy",},"order":0,},
+
+
+    {"id":{"name":"obj_centrifuge","path":"objects/obj_centrifuge/obj_centrifuge.yy",},"order":7,},
+
+
     {"id":{"name":"spr_chemp_hover","path":"sprites/spr_chemp_hover/spr_chemp_hover.yy",},"order":4,},
+
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},"order":1,},
+
     {"id":{"name":"Variety_of_Clicks","path":"sounds/Variety_of_Clicks/Variety_of_Clicks.yy",},"order":3,},
     {"id":{"name":"obj_gear0","path":"objects/obj_gear0/obj_gear0.yy",},"order":6,},
     {"id":{"name":"obj_timeMachine","path":"objects/obj_timeMachine/obj_timeMachine.yy",},"order":4,},
@@ -45,6 +52,7 @@
     {"id":{"name":"spr_chemg_hover","path":"sprites/spr_chemg_hover/spr_chemg_hover.yy",},"order":5,},
     {"id":{"name":"bg_lab02","path":"sprites/bg_lab02/bg_lab02.yy",},"order":1,},
     {"id":{"name":"spr_szrs_hover","path":"sprites/spr_szrs_hover/spr_szrs_hover.yy",},"order":2,},
+    {"id":{"name":"To do logic!","path":"notes/To do logic!/To do logic!.yy",},"order":6,},
     {"id":{"name":"mus_med","path":"sounds/mus_med/mus_med.yy",},"order":2,},
     {"id":{"name":"spr_gear1_norm","path":"sprites/spr_gear1_norm/spr_gear1_norm.yy",},"order":1,},
     {"id":{"name":"spr_cheme_grab","path":"sprites/spr_cheme_grab/spr_cheme_grab.yy",},"order":0,},
@@ -75,8 +83,10 @@
     {"id":{"name":"spr_gear0_grab","path":"sprites/spr_gear0_grab/spr_gear0_grab.yy",},"order":1,},
     {"id":{"name":"spr_30seconds","path":"sprites/spr_30seconds/spr_30seconds.yy",},"order":2,},
     {"id":{"name":"spr_red_button","path":"sprites/spr_red_button/spr_red_button.yy",},"order":2,},
+    {"id":{"name":"obj_gearBox","path":"objects/obj_gearBox/obj_gearBox.yy",},"order":5,},
     {"id":{"name":"snd_clockTick","path":"sounds/snd_clockTick/snd_clockTick.yy",},"order":7,},
     {"id":{"name":"spr_gas0_hover","path":"sprites/spr_gas0_hover/spr_gas0_hover.yy",},"order":1,},
+    {"id":{"name":"fsm_centrifuge","path":"scripts/fsm_centrifuge/fsm_centrifuge.yy",},"order":4,},
     {"id":{"name":"fsm_timeMachine","path":"scripts/fsm_timeMachine/fsm_timeMachine.yy",},"order":0,},
     {"id":{"name":"fsm_fuelTank","path":"scripts/fsm_fuelTank/fsm_fuelTank.yy",},"order":2,},
     {"id":{"name":"spr_szrs_grab","path":"sprites/spr_szrs_grab/spr_szrs_grab.yy",},"order":4,},
@@ -89,6 +99,7 @@
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":1,},
     {"id":{"name":"obj_countdown","path":"objects/obj_countdown/obj_countdown.yy",},"order":2,},
     {"id":{"name":"spr_gear0_hover","path":"sprites/spr_gear0_hover/spr_gear0_hover.yy",},"order":0,},
+    {"id":{"name":"fsm_gearBox","path":"scripts/fsm_gearBox/fsm_gearBox.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
     {"id":{"name":"bg_20sec02","path":"sprites/bg_20sec02/bg_20sec02.yy",},"order":5,},
     {"id":{"name":"bg_03","path":"sprites/bg_03/bg_03.yy",},"order":2,},
@@ -100,6 +111,7 @@
     {"id":{"name":"spr_blue_button","path":"sprites/spr_blue_button/spr_blue_button.yy",},"order":0,},
     {"id":{"name":"spr_rcursor","path":"sprites/spr_rcursor/spr_rcursor.yy",},"order":2,},
     {"id":{"name":"obj_cheme","path":"objects/obj_cheme/obj_cheme.yy",},"order":1,},
+    {"id":{"name":"ArrayUtility","path":"scripts/ArrayUtility/ArrayUtility.yy",},"order":2,},
     {"id":{"name":"spr_cheme_hover","path":"sprites/spr_cheme_hover/spr_cheme_hover.yy",},"order":1,},
     {"id":{"name":"spr_green_button","path":"sprites/spr_green_button/spr_green_button.yy",},"order":1,},
     {"id":{"name":"spr_szrs_norm","path":"sprites/spr_szrs_norm/spr_szrs_norm.yy",},"order":3,},
@@ -170,6 +182,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.8.0.34",
   },
 }

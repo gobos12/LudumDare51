@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+state_machine = new StateMachine(self, fsm_fuelTank(), "Init");
+event_inherited();
+
 randomize();
 
 fuelOptions = ds_list_create();

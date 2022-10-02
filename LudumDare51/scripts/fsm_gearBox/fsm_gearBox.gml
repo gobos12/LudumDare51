@@ -1,45 +1,34 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function fsm_fuelTank() {
-
+function fsm_gearBox() {
+	
 	var states = {} // struct initialization
 	static DN = function () {} // function that does nothing
 	
 	states[$ "Empty"] = new State (
 		DN,
 		function (target, state_machine) {
-			if (target.isFueled) {
-				state_machine.transition("Fueled");
+			if (target.isRepaired) {
+				state_machine.transition("Repaired");
 			}
-			if (target.isAflame) {
-				state_machine.transition("Aflame");
-			}
-			if (target.isNeutralized) {
-				state_machine.transition("Neutralized");
+			if (target.isCut) {
+				state_machine.transition("WireCut");
 			}
 		},
 		DN
 	)
 	
-	states[$ "Fueled"] = new State (
+	states[$ "Repaired"] = new State (
 		function (target, state_machine) {
-			target.isFueled = true;
+			target.isRepaired = true;
 		},
 		DN,
 		DN
 	)
 	
-	states[$ "Aflame"] = new State (
+	states[$ "WireCut"] = new State (
 		function (target, state_machine) {
-			target.isAflame = true;
-		},
-		DN,
-		DN
-	)
-	
-	states[$ "Neutralized"] = new State (
-		function (target, state_machine) {
-			target.isNeutralized = true;
+			target.isCut = true;
 		},
 		DN,
 		DN
@@ -54,4 +43,5 @@ function fsm_fuelTank() {
 	)
 
 	return states;
+
 }
