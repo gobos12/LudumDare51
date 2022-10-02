@@ -8,4 +8,3 @@ if (grabbed = true)
 	self.y = mouse_y
 	
 }
-
