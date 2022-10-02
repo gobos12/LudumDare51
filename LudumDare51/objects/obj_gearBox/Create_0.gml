@@ -3,6 +3,8 @@
 
 state_machine = new StateMachine(self, fsm_gearBox(), "Init");
 
+gear0Placed = false;
+gear1Placed = false;
 
 
 
