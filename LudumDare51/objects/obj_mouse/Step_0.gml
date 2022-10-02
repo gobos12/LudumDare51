@@ -3,3 +3,11 @@
 
 self.x = mouse_x
 self.y = mouse_y
+
+sprite_index = spr_cursor
+
+if (x <= camera_get_view_x(view_camera[0]) + 100)
+	sprite_index = spr_lcursor
+	
+if (x >= camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 100)
+	sprite_index = spr_rcursor
