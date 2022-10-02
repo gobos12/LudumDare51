@@ -3,6 +3,3 @@
 
 state_machine.step();
 
-
-
-
