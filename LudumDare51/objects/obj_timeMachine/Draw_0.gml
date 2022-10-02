@@ -6,6 +6,8 @@
 //draw_text(room_width/2, room_height/2, string(obj_countdown.getDisplayTime()))
 //draw_text(room_width/2, room_height/2 + 20, string(obj_countdown.getTime()))
 
+draw_sprite(spr_time_machine, 0, 1720, 200);
+
 
 
 
