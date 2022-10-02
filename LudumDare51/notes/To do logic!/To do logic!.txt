@@ -1,7 +1,11 @@
 obj_fuelTank
 - replace with correct name for the output chemical
 - recheck gascan object names
+- randomization needs to happen every jump
 
 obj_gearBox
 - Add open and close functionality on click and update variables accordingly
 - 
+
+obj_centrifuge
+- - randomization needs to happen every jump
