@@ -1,4 +1,4 @@
-// fsm for time machine
+// fsm for time machine change
 
 function fsm_timeMachine() {
 	
