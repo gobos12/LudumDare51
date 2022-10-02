@@ -32,9 +32,17 @@
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":1,},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":1,},
     {"id":{"name":"obj_countdown","path":"objects/obj_countdown/obj_countdown.yy",},"order":2,},
-    {"id":{"name":"bg_test","path":"sprites/bg_test/bg_test.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
+<<<<<<< Updated upstream
     {"id":{"name":"dragtest","path":"objects/dragtest/dragtest.yy",},"order":0,},
+=======
+    {"id":{"name":"bg_03","path":"sprites/bg_03/bg_03.yy",},"order":1,},
+    {"id":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"order":0,},
+    {"id":{"name":"spr_gas2_hover","path":"sprites/spr_gas2_hover/spr_gas2_hover.yy",},"order":0,},
+    {"id":{"name":"obj_gas1","path":"objects/obj_gas1/obj_gas1.yy",},"order":4,},
+    {"id":{"name":"spr_rcursor","path":"sprites/spr_rcursor/spr_rcursor.yy",},"order":2,},
+    {"id":{"name":"obj_gas2","path":"objects/obj_gas2/obj_gas2.yy",},"order":5,},
+>>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -69,11 +77,20 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Sounds/Music.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gas0","folderPath":"folders/Sprites/gas0.yy","order":7,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gas1","folderPath":"folders/Sprites/gas1.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gas2","folderPath":"folders/Sprites/gas2.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Items","folderPath":"folders/Sprites/Items.yy","order":3,},
+<<<<<<< Updated upstream
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Effects","folderPath":"folders/Sounds/Effects.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controllers","folderPath":"folders/Objects/Controllers.yy","order":1,},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"mouse","folderPath":"folders/Sprites/mouse.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
+>>>>>>> Stashed changes
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -83,6 +100,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.0.34",
+    "IDEVersion": "2022.8.1.37",
   },
 }
