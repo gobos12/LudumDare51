@@ -11,10 +11,6 @@ function fsm_centrifuge() {
 			if (target.isProcessing) {
 				state_machine.transition("Processing");
 			}
-			if (target.isReady) {
-				state_machine.transition("Ready");
-			}
-			
 		},
 		DN
 	)
@@ -27,13 +23,6 @@ function fsm_centrifuge() {
 		DN
 	)
 	
-	states[$ "Ready"] = new State (
-		function (target, state_machine) {
-			target.isReady = true;
-		},
-		DN,
-		DN
-	)
 	
 	states[$ "Init"] = new State (
 		DN,

@@ -8,4 +8,5 @@ obj_gearBox
 - 
 
 obj_centrifuge
-- - randomization needs to happen every jump
+- randomization needs to happen every jump
+- output chemical needs to correctly assigned with validity variable
