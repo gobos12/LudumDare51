@@ -9,6 +9,9 @@
 	c) create states in the struct using:
 //  	states[$ "StateName"] = new State 
 			( ... see step 3
+			
+	d) return states at the end
+
 
 2) In your object:
 	a) In the create event, make a state machine object
