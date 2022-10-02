@@ -33,6 +33,7 @@
     {"id":{"name":"spr_dust","path":"sprites/spr_dust/spr_dust.yy",},"order":2,},
     {"id":{"name":"bg_lab02","path":"sprites/bg_lab02/bg_lab02.yy",},"order":1,},
     {"id":{"name":"spr_szrs_hover","path":"sprites/spr_szrs_hover/spr_szrs_hover.yy",},"order":2,},
+    {"id":{"name":"To do logic!","path":"notes/To do logic!/To do logic!.yy",},"order":6,},
     {"id":{"name":"mus_med","path":"sounds/mus_med/mus_med.yy",},"order":2,},
     {"id":{"name":"spr_gear1_norm","path":"sprites/spr_gear1_norm/spr_gear1_norm.yy",},"order":1,},
     {"id":{"name":"spr_cheme_grab","path":"sprites/spr_cheme_grab/spr_cheme_grab.yy",},"order":0,},

@@ -13,6 +13,7 @@ if (interacts) {
 		if (tag == "obj_scissors" && !isCut) {
 			isCut = true;
 			obj_timeMachine.puzzlesDeactivated++;
+			isOpenable = false; // no longer interactable
 		}
 	}
 	else if (!isRepaired) {
