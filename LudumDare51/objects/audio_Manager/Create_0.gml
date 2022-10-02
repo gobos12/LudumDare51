@@ -3,6 +3,7 @@
 
 
 audio_channel_num(64);
-audio_play_sound(mus_high, 64, true, 1);
-audio_play_sound(mus_med, 63, true, 1);
-audio_play_sound(mus_low, 62, true, 1);
+audio_play_sound(mus_high, 64, true, 1.5);
+audio_play_sound(mus_med, 63, true, 1.5);
+audio_play_sound(mus_low, 62, true, 1.5);
+audio_play_sound(snd_clockTick, 15, true, 1)

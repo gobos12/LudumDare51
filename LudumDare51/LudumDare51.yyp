@@ -53,6 +53,7 @@
     {"id":{"name":"spr_chemp_grab","path":"sprites/spr_chemp_grab/spr_chemp_grab.yy",},"order":0,},
     {"id":{"name":"spr_gear0_grab","path":"sprites/spr_gear0_grab/spr_gear0_grab.yy",},"order":1,},
     {"id":{"name":"spr_chemb_grab","path":"sprites/spr_chemb_grab/spr_chemb_grab.yy",},"order":0,},
+    {"id":{"name":"snd_clockTick","path":"sounds/snd_clockTick/snd_clockTick.yy",},"order":7,},
     {"id":{"name":"spr_gas0_hover","path":"sprites/spr_gas0_hover/spr_gas0_hover.yy",},"order":1,},
     {"id":{"name":"fsm_timeMachine","path":"scripts/fsm_timeMachine/fsm_timeMachine.yy",},"order":0,},
     {"id":{"name":"spr_chemg_grab","path":"sprites/spr_chemg_grab/spr_chemg_grab.yy",},"order":1,},
