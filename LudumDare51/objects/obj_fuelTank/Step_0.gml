@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+state_machine.step()
 
 tag = fuelType;
 if (interacts && isEmpty()) {
