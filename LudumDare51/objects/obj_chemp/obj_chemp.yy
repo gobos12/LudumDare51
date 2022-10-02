@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "abstract_draggable",
-    "path": "objects/abstract_draggable/abstract_draggable.yy",
+    "name": "abstract_interact",
+    "path": "objects/abstract_interact/abstract_interact.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

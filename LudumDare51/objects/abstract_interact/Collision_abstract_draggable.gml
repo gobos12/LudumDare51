@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 
-if(self.grabbed == false)
+if(other.grabbed == false)
 {
-	return other.instance_id
+	tag = object_get_name(other)
 }
 
