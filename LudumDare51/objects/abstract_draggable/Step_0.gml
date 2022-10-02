@@ -9,7 +9,3 @@ if (grabbed = true)
 	
 }
 
-if (audio_sound_get_track_position(Variety_of_Clicks) >= 4.3)
-{
-	audio_stop_sound(Variety_of_Clicks)
-}

@@ -4,18 +4,18 @@
 
 
 // Inherit the parent event
-event_inherited();
+//event_inherited();
 
-if (grabbed)
-{
-	sprite_index = spr_cheme_grab
-}
-else if (hover)
-{	
-	sprite_index = spr_cheme_hover	
-}
-else
-	sprite_index = spr_cheme_norm
+//if (grabbed)
+//{
+//	sprite_index = spr_cheme_grab
+//}
+//else if (hover)
+//{	
+//	sprite_index = spr_cheme_hover	
+//}
+//else
+//	sprite_index = spr_cheme_norm
 
-hover = false
+//hover = false
 
