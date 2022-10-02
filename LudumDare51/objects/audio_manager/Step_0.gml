@@ -35,3 +35,5 @@ switch (obj_player.state_machine.state_name) {
   break;
     }
 
+if(obj_countdown.getDisplayTime() == 5)
+	audio_play_sound(snd_alarm, 14, true, 0.02)
