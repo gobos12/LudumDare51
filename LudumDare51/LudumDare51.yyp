@@ -93,6 +93,7 @@
     {"id":{"name":"spr_blue_button","path":"sprites/spr_blue_button/spr_blue_button.yy",},"order":0,},
     {"id":{"name":"spr_rcursor","path":"sprites/spr_rcursor/spr_rcursor.yy",},"order":2,},
     {"id":{"name":"obj_cheme","path":"objects/obj_cheme/obj_cheme.yy",},"order":1,},
+    {"id":{"name":"ArrayUtility","path":"scripts/ArrayUtility/ArrayUtility.yy",},"order":2,},
     {"id":{"name":"spr_cheme_hover","path":"sprites/spr_cheme_hover/spr_cheme_hover.yy",},"order":1,},
     {"id":{"name":"spr_chemp_hover","path":"sprites/spr_chemp_hover/spr_chemp_hover.yy",},"order":1,},
     {"id":{"name":"spr_green_button","path":"sprites/spr_green_button/spr_green_button.yy",},"order":1,},
