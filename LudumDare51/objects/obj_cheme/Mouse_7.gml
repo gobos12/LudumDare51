@@ -4,7 +4,7 @@
 
 
 // Inherit the parent event
-event_inherited();
+//event_inherited();
 
 sprite_index = spr_cheme_norm
 

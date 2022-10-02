@@ -4,7 +4,7 @@
 switch (obj_player.state_machine.state_name) {
   // When the player is between 0 and 10 seconds
   case "10":
-    audio_sound_gain(mus_high, 1, 600);
+    audio_sound_gain(mus_high, 1.5, 600);
 	audio_sound_gain(mus_med, 0, 600);
 	audio_sound_gain(mus_low, 0, 600);
 	//show_debug_message("playing high intensity")
@@ -13,7 +13,7 @@ switch (obj_player.state_machine.state_name) {
   // When the player is between 10 and 20 seconds
   case "20":
     audio_sound_gain(mus_high, 0, 600);
-	audio_sound_gain(mus_med, 1, 600);
+	audio_sound_gain(mus_med, 1.5, 600);
 	audio_sound_gain(mus_low, 0, 600);
 	//show_debug_message("playing med intensity")
   break;
@@ -22,13 +22,13 @@ switch (obj_player.state_machine.state_name) {
   case "30":
     audio_sound_gain(mus_high, 0, 600);
 	audio_sound_gain(mus_med, 0, 600);
-	audio_sound_gain(mus_low, 1, 600);
+	audio_sound_gain(mus_low, 1.5, 600);
 	//show_debug_message("playing low intensity")
   break;
     
   default:
   
-	audio_sound_gain(mus_high, 1, 600);
+	audio_sound_gain(mus_high, 1.5, 600);
 	audio_sound_gain(mus_med, 0, 600);
 	audio_sound_gain(mus_low, 0, 600);
     
@@ -36,4 +36,4 @@ switch (obj_player.state_machine.state_name) {
     }
 
 if(obj_countdown.displayTime == 5)
-	audio_play_sound(snd_alarm, 14, true, 0.02)
+	audio_play_sound(snd_alarm, 14, true, 0.0002)
