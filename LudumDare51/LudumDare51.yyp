@@ -67,23 +67,18 @@
     {"id":{"name":"snd_clockTick","path":"sounds/snd_clockTick/snd_clockTick.yy",},"order":7,},
     {"id":{"name":"spr_gas0_hover","path":"sprites/spr_gas0_hover/spr_gas0_hover.yy",},"order":1,},
     {"id":{"name":"fsm_timeMachine","path":"scripts/fsm_timeMachine/fsm_timeMachine.yy",},"order":0,},
-
     {"id":{"name":"fsm_fuelTank","path":"scripts/fsm_fuelTank/fsm_fuelTank.yy",},"order":2,},
-
     {"id":{"name":"spr_chemg_grab","path":"sprites/spr_chemg_grab/spr_chemg_grab.yy",},"order":1,},
     {"id":{"name":"spr_szrs_grab","path":"sprites/spr_szrs_grab/spr_szrs_grab.yy",},"order":4,},
-
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":1,},
     {"id":{"name":"spr_yellow_button","path":"sprites/spr_yellow_button/spr_yellow_button.yy",},"order":3,},
     {"id":{"name":"spr_gear0_norm","path":"sprites/spr_gear0_norm/spr_gear0_norm.yy",},"order":2,},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":1,},
     {"id":{"name":"obj_countdown","path":"objects/obj_countdown/obj_countdown.yy",},"order":2,},
-
     {"id":{"name":"spr_gear0_hover","path":"sprites/spr_gear0_hover/spr_gear0_hover.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
     {"id":{"name":"bg_20sec02","path":"sprites/bg_20sec02/bg_20sec02.yy",},"order":5,},
     {"id":{"name":"bg_03","path":"sprites/bg_03/bg_03.yy",},"order":2,},
-
     {"id":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"order":0,},
     {"id":{"name":"spr_up","path":"sprites/spr_up/spr_up.yy",},"order":5,},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},"order":0,},
@@ -155,9 +150,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"scissors","folderPath":"folders/Sprites/scissors.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buttons","folderPath":"folders/Sprites/Buttons.yy","order":19,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shapes Puzzle","folderPath":"folders/Sprites/Buttons/Shapes Puzzle.yy","order":3,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Time Buttons","folderPath":"folders/Sprites/Buttons/Time Buttons.yy","order":4,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
