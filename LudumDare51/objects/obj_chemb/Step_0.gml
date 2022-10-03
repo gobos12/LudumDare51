@@ -8,7 +8,7 @@ event_inherited();
 
 if (grabbed)
 {
-	sprite_index = spr_chemb_grab
+	sprite_index = spr_chemb_hover
 }
 else if (hover)
 {	
