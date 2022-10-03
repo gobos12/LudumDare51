@@ -8,7 +8,7 @@ if (self.x <= 1280 && obj_player.state_machine.state_name == "10")
 	
 }
 
-if (obj_player.state_machine.state_name == "transition")
+if (obj_player.state_machine.state_name == "Transition")
 {
 	
 	reset = true
