@@ -23,11 +23,11 @@ function isEmpty() {
 	return !(isFueled || isAflame || isNeutralized)
 }
 
-image_xscale = 1/4
-image_yscale = 1/4
+//image_xscale = 1/4
+//image_yscale = 1/4
 
-x = 1972
-y = 442
+//x = 1972
+//y = 442
 
 image_speed = 0;
 

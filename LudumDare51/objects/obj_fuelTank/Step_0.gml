@@ -7,14 +7,14 @@ event_inherited();
 
 fuelType = tag
 
-if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transition")) {	
-	if (fuelType == "obj_gas2") {
+if (interacts && !(obj_player.state_machine.state_name == "Transition")) {	
+	if (gascan.fueltype == 2) {
 		isFueled = true;
 		obj_timeMachine.puzzlesFinished++;
 		image_speed = 5;
 		audio_play_sound(snd_glugGlug, 23, true, 1)
 	}
-	else if (ds_list_find_index(fuelOptions, fuelType) != -1) {
+	else if (gascan.fueltype == 0 || gascan.fueltype == 1) {//if (ds_list_find_index(fuelOptions, fuelType) != -1) {
 		isAflame = true;
 		audio_play_sound(snd_glugGlug, 23, true, 1)
 		

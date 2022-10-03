@@ -9,7 +9,7 @@ if (obj_player.state_machine.state_name == "30")
 else
 	isOpenable = false;
 
-if (interacts) {
+if (interacts && mouse_check_button_released(mb_any)) {
 	if (isOpen) {
 		if (tag == "obj_scissors" && !isCut) {
 			isCut = true;
@@ -18,13 +18,21 @@ if (interacts) {
 		}
 	}
 	else if (!isRepaired) {
-		if (!gear0Placed && (tag == "obj_gear0")) {
+		show_debug_message(gear0Placed)
+		if (!gear0Placed && (gear.gear == 0)) {
+			
 			gear0Placed = true;
 			isOpenable = false;
+			if(!gear1Placed) {
+				obj_tm.image_index = 2
+			}
+			else if(gear1Placed) obj_tm.image_index = 3
 		}
-		if (!gear1Placed && (tag == "obj_gear1")) {
+		if (!gear1Placed && (gear.gear == 1)) {
 			gear1Placed = true;
 			isOpenable = false;
+			if(!gear0Placed) obj_tm.image_index = 1
+			else if(gear0Placed) obj_tm.image_index = 3
 		}
 	}
 }

@@ -6,7 +6,7 @@ event_inherited()
 
 gear0Placed = false;
 gear1Placed = false;
-
+interacts = false
 
 
 

@@ -31,8 +31,12 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
   ],
-  "properties": [],
-  "overriddenProperties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"gear","varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_tag","path":"objects/abstract_draggable/abstract_draggable.yy",},"objectId":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"value":"gear",},
+  ],
   "parent": {
     "name": "Gears",
     "path": "folders/Objects/Items/Gears.yy",
