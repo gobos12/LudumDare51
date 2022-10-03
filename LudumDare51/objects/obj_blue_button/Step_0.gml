@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(!correct_buttons)image_index = 0
+if(correct_buttons) image_index = 2
 
-
-
-audio_play_sound(snd_mouseClick,22,false,10,1.4)
-room_goto(Room1)
 

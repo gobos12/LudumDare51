@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-sprite_index = restart_hover
+image_index = 1
 
