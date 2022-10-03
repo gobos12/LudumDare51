@@ -93,6 +93,7 @@
     {"id":{"name":"obj_cluef1","path":"objects/obj_cluef1/obj_cluef1.yy",},"order":11,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":0,},
     {"id":{"name":"spr_gas0_grab","path":"sprites/spr_gas0_grab/spr_gas0_grab.yy",},"order":0,},
+    {"id":{"name":"obj_credits_note","path":"objects/obj_credits_note/obj_credits_note.yy",},"order":17,},
     {"id":{"name":"spr_chemg_norm","path":"sprites/spr_chemg_norm/spr_chemg_norm.yy",},"order":4,},
     {"id":{"name":"obj_cluef2","path":"objects/obj_cluef2/obj_cluef2.yy",},"order":12,},
     {"id":{"name":"spr_20seconds","path":"sprites/spr_20seconds/spr_20seconds.yy",},"order":1,},
