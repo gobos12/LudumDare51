@@ -8,15 +8,16 @@ function fsm_timeMachine() {
 	states[$ "Stage10"] = new State (
 		function (target, state_machine) {
 			target.isEnabled = true;
-			target.puzzlesFinished = 0;
+			//target.puzzlesFinished = 0;
 		},
 		function (target, state_machine) {
 			if (target.puzzlesFinished == 1) {
 				state_machine.transition("Stage20");
+				
 			}
-			else if ((target.puzzlesDeactivated == 2) && target.codeEntered) {
-				state_machine.transition("Disabled");
-			}
+			//else if ((target.puzzlesDeactivated == 2) && target.codeEntered) {
+			//	state_machine.transition("Disabled");
+			//}
 		},
 		DN
 	)

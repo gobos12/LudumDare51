@@ -38,7 +38,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Items/Buttons.yy",
+    "name": "Shape Buttons",
+    "path": "folders/Objects/Items/Buttons/Shape Buttons.yy",
   },
 }

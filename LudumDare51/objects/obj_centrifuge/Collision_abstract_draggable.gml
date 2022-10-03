@@ -9,5 +9,5 @@ image_index = 1
 
 if(other.item_tag == "pi" || other.item_tag == "omega" || other.item_tag == "sigma"){
 	if(!isProcessing) interacts = true;
-	beaker = other;
+	abstract_interact.item = other;
 }

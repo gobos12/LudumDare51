@@ -8,3 +8,4 @@ if (transitioning && !transitionStarted) {
 	alarm[0] = room_speed * 3;
 }
 
+show_debug_message(state_machine.state_name)

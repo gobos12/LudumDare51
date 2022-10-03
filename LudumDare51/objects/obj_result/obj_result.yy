@@ -31,7 +31,10 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"Type","path":"objects/abstract_draggable/abstract_draggable.yy",},"objectId":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"value":"result",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_tag","path":"objects/abstract_draggable/abstract_draggable.yy",},"objectId":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"value":"fuel",},
+  ],
   "parent": {
     "name": "Chem",
     "path": "folders/Objects/Items/Chem.yy",
