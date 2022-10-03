@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_speed = 0;
-image_index = 0;
+if(!correct_buttons)image_index = 0
+if(correct_buttons) image_index = 2
 
-interacts = false
-tag = ""
 
