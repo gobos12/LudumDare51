@@ -7,7 +7,7 @@
 event_inherited();
 image_index = 1
 
-if(other.item_tag == "pi" || other.item_tag == "omega" || other.item_tag == "sigma"){
+if(other.Type == "pi" || other.Type == "omega" || other.Type == "sigma"){
 	if(!isProcessing) interacts = true;
 	abstract_interact.item = other;
 }
