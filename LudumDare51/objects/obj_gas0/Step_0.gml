@@ -8,7 +8,7 @@ event_inherited();
 
 if (grabbed)
 {
-	sprite_index = spr_gas0_grab
+	sprite_index = spr_gas0_hover
 }
 else if (hover)
 {	

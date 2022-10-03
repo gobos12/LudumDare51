@@ -8,7 +8,7 @@ event_inherited();
 
 if (grabbed)
 {
-	sprite_index = spr_szrs_grab
+	sprite_index = spr_szrs_hover
 }
 else if (hover)
 {	
