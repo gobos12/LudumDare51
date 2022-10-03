@@ -52,6 +52,8 @@ if (gear0Placed && gear1Placed && !isFixed) {
 if ((obj_player.state_machine.state_name == "Transition")) {
 	isFixed = false
 	isRepaired = false
+	isCut = false
+	opened = false
 	gear0Placed = false
 	gear1Placed = false
 	obj_tm.image_index = 0
