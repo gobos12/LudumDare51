@@ -3,8 +3,9 @@
 
 step_count += 1;
 
-function resetForwardTime () {
-	totalTIme += forwardTime;
+
+if(displayTime == 0){
+	totalTime += forwardTime;
 	forwardTime = 0;
 	step_count = 0;
 	switch (obj_player.state_machine.state_name) {
@@ -18,10 +19,6 @@ function resetForwardTime () {
 	
 		case "30":
 			initialTime = 3 * INTERVAL;
-		break;
-	
-		default:
-			initialTime = 1 * INTERVAL;
 		break;
 	}
 }
@@ -38,6 +35,7 @@ if (displayTime == (gameTime / (INTERVAL/10)))
 	
 if (obj_player.state_machine.state_name == "Transition") {
 	displayTime = 0
+	
 }
 
 function getTime() {
@@ -50,4 +48,4 @@ function getForwardSeconds() {
 	return floor(forwardTime);
 }
 
-
+//show_debug_message("forward time = " + string(forwardTime)

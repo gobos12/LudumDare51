@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_scissors",
+  "name": "obj_10sec",
   "spriteId": {
-    "name": "spr_szrs_norm",
-    "path": "sprites/spr_szrs_norm/spr_szrs_norm.yy",
+    "name": "spr_10seconds",
+    "path": "sprites/spr_10seconds/spr_10seconds.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "abstract_draggable",
-    "path": "objects/abstract_draggable/abstract_draggable.yy",
+    "name": "obj_time_button_manager",
+    "path": "objects/obj_time_button_manager/obj_time_button_manager.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,14 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"Type","path":"objects/abstract_draggable/abstract_draggable.yy",},"objectId":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"value":"scissors",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Time Buttons",
+    "path": "folders/Objects/Items/Buttons/Time Buttons.yy",
   },
 }
