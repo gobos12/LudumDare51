@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 state_machine.step()
+event_inherited();
 
 fuelType = tag
 
-if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transition")) {
-	if (fuelType == correctFuelType) {
+if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transition")) {	
+	if (fuelType == "obj_gas2") {
 		isFueled = true;
 		obj_timeMachine.puzzlesFinished++;
 		image_speed = 5;
@@ -15,6 +16,7 @@ if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transiti
 	else if (ds_list_find_index(fuelOptions, fuelType) != -1) {
 		isAflame = true;
 		audio_play_sound(snd_glugGlug, 23, true, .25)
+		
 	}
 	else if (fuelType == chemicalName) {
 		// ACTUAL FIRE
@@ -40,6 +42,7 @@ if ((obj_player.state_machine.state_name == "Transition")) {
 	isFueled = false;
 }
 
-show_debug_message(obj_timeMachine.puzzlesFinished)
+tag = "NONE"
+
 
 

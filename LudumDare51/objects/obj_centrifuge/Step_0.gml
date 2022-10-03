@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 state_machine.step()
+event_inherited()
 image_index = 0
 
 if (interacts && mouse_check_button_released(mb_any) && !isProcessing) { // ArrayUtility().contains(chemicals, tag)) {

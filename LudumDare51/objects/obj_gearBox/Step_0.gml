@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 state_machine.step()
+event_inherited()
 
 if (obj_player.state_machine.state_name == "30")
 	isOpenable = true;
