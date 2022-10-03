@@ -4,6 +4,7 @@
 
 if(other.grabbed == false)
 {
-	tag = object_get_name(other)
+	tag = object_get_name(other.object_index)
+	interacts = true
 }
 
