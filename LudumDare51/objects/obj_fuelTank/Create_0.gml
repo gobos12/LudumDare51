@@ -12,7 +12,9 @@ ds_list_insert(fuelOptions, 0, "obj_gas1")
 ds_list_insert(fuelOptions, 0, "obj_gas2")
 ds_list_shuffle(fuelOptions)
 
-chemicalName = "obj_outputChemical"
+
+chemicalName = "obj_result"
+
 
 correctFuelType = fuelOptions[| 0];
 
