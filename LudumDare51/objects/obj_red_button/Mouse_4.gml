@@ -8,3 +8,4 @@ else{
 	obj_blue_button.blue_state = false
 	obj_yellow_button.yellow_state = false
 }
+
