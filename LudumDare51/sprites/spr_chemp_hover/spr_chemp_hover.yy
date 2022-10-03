@@ -68,6 +68,6 @@
   "nineSlice": null,
   "parent": {
     "name": "chem_purple",
-    "path": "folders/Sprites/chem_purple.yy",
+    "path": "folders/Sprites/Chem/chem_purple.yy",
   },
 }
