@@ -72,7 +72,7 @@
     {"id":{"name":"obj_cluec2","path":"objects/obj_cluec2/obj_cluec2.yy",},"order":1,},
     {"id":{"name":"spr_gear1_norm","path":"sprites/spr_gear1_norm/spr_gear1_norm.yy",},"order":1,},
     {"id":{"name":"spr_cheme_grab","path":"sprites/spr_cheme_grab/spr_cheme_grab.yy",},"order":0,},
-    {"id":{"name":"LoopReset","path":"sounds/LoopReset/LoopReset.yy",},"order":0,},
+    {"id":{"name":"snd_reset","path":"sounds/snd_reset/snd_reset.yy",},"order":0,},
     {"id":{"name":"quit_norm","path":"sprites/quit_norm/quit_norm.yy",},"order":9,},
     {"id":{"name":"spr_gas2_norm","path":"sprites/spr_gas2_norm/spr_gas2_norm.yy",},"order":2,},
     {"id":{"name":"spr_lcursor","path":"sprites/spr_lcursor/spr_lcursor.yy",},"order":1,},
@@ -193,8 +193,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"end_room","path":"rooms/end_room/end_room.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
