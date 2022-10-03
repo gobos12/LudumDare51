@@ -138,6 +138,7 @@
     {"id":{"name":"spr_gas0_grab","path":"sprites/spr_gas0_grab/spr_gas0_grab.yy",},"order":1,},
     {"id":{"name":"fsm_centrifuge","path":"scripts/fsm_centrifuge/fsm_centrifuge.yy",},"order":4,},
     {"id":{"name":"fsm_timeMachine","path":"scripts/fsm_timeMachine/fsm_timeMachine.yy",},"order":0,},
+    {"id":{"name":"Playbutton","path":"extensions/Playbutton/Playbutton.yy",},"order":11,},
     {"id":{"name":"snd_clockTick","path":"sounds/snd_clockTick/snd_clockTick.yy",},"order":9,},
     {"id":{"name":"fsm_fuelTank","path":"scripts/fsm_fuelTank/fsm_fuelTank.yy",},"order":2,},
     {"id":{"name":"spr_szrs_grab","path":"sprites/spr_szrs_grab/spr_szrs_grab.yy",},"order":4,},
