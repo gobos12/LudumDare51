@@ -8,6 +8,7 @@ switch (obj_player.state_machine.state_name) {
   case "10":
 	layer_set_visible("bg_10sec", true)
 	layer_set_visible("bg_20sec", true)
+	layer_set_visible("FinalNotes", false)
 	show_debug_message("bg 10")
   break;
     
@@ -15,6 +16,7 @@ switch (obj_player.state_machine.state_name) {
   case "20":
 	layer_set_visible("bg_10sec", false)
 	layer_set_visible("bg_20sec", true)
+	layer_set_visible("FinalNotes", false)
 	show_debug_message("bg 20")
   break;
     
@@ -22,6 +24,7 @@ switch (obj_player.state_machine.state_name) {
   case "30":
 	layer_set_visible("bg_10sec", false)
 	layer_set_visible("bg_20sec", false)
+	layer_set_visible("FinalNotes", true)
 	show_debug_message("bg 30")
   break;
   
