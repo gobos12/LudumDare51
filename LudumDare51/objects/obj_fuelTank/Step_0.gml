@@ -5,16 +5,16 @@ state_machine.step()
 
 fuelType = tag
 
-if (interacts && isEmpty()) {
+if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transition")) {
 	if (fuelType == correctFuelType) {
 		isFueled = true;
 		obj_timeMachine.puzzlesFinished++;
+		image_speed = 5;
 		audio_play_sound(snd_glugGlug, 23, true, .25)
 	}
 	else if (ds_list_find_index(fuelOptions, fuelType) != -1) {
 		isAflame = true;
 		audio_play_sound(snd_glugGlug, 23, true, .25)
-		image_speed = 5;
 	}
 	else if (fuelType == chemicalName) {
 		// ACTUAL FIRE
@@ -28,13 +28,18 @@ else
 	audio_stop_sound(snd_glugGlug)
 }
 
-if (chemicalFire != pointer_null && (obj_player.state_machine.state_name == "Transition")) {
-	instance_destroy(chemicalFire)
-	chemicalFire = pointer_null
-}
+
 if ((obj_player.state_machine.state_name == "Transition")) {
 	image_index = 0;
+	if (isNeutralized) {
+		instance_destroy(chemicalFire)
+		chemicalFire = pointer_null
+	}
+	isAflame = false;
+	isNeutralized = false;
+	isFueled = false;
 }
 
+show_debug_message(obj_timeMachine.puzzlesFinished)
 
 

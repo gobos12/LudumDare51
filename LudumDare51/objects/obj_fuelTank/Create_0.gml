@@ -9,12 +9,12 @@ event_inherited();
 //randomize();
 
 fuelOptions = ds_list_create();
-// ds_list_insert(fuelOptions, 0, "obj_gas0")
+ds_list_insert(fuelOptions, 0, "obj_gas0")
 ds_list_insert(fuelOptions, 0, "obj_gas1")
 ds_list_insert(fuelOptions, 0, "obj_gas2")
 //ds_list_shuffle(fuelOptions)
 
-chemicalName = "obj_gas0"
+chemicalName = "obj_result"
 
 correctFuelType = "obj_gas2"
 chemicalFire = pointer_null;
