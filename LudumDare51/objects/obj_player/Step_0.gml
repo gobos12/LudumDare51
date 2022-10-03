@@ -3,3 +3,7 @@
 
 state_machine.step();
 
+if (transitioning && !transitionStarted) {
+	transitionStarted = true
+	alarm[0] = room_speed * 3;
+}
