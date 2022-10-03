@@ -7,7 +7,7 @@ function fsm_playerTemporal(){
 	
 	states[$ "10"] = new State (
 		function (target, state_machine) {
-			obj_countdown.resetForwardTime();
+			//obj_countdown.resetForwardTime();
 		},
 		function (target, state_machine) {
 			if (obj_countdown.getTime() <= 0) {
@@ -19,11 +19,11 @@ function fsm_playerTemporal(){
 	
 	states[$ "20"] = new State (
 		function (target, state_machine) {
-			obj_countdown.resetForwardTime();
+			//obj_countdown.resetForwardTime();
 		},
 		function (target, state_machine) {
 			if (obj_countdown.getTime() <= 15) {
-				state_machine.transition("10");
+				//state_machine.transition("10");
 			}
 		},
 		DN
@@ -35,7 +35,7 @@ function fsm_playerTemporal(){
 		},
 		function (target, state_machine) {
 			if (obj_countdown.getTime() <= 30) {
-				state_machine.transition("20");
+				//state_machine.transition("20");
 			}
 		},
 		DN

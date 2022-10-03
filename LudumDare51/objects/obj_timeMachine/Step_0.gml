@@ -26,9 +26,16 @@ switch (obj_player.state_machine.state_name) {
 
 if (obj_countdown.gameTime == 1)
 {
-
 	instance_create_layer(1280/2, 720/2, "Items_In_Use", obj_transition)
+	
+	if(puzzlesFinished == 0) obj_player.state_machine.state_name = "10"
+	if(puzzlesFinished == 1) obj_player.state_machine.state_name = "20"
+	if(puzzlesFinished == 2) obj_player.state_machine.state_name = "30"
+	
+	puzzlesFinished = 0;
+	puzzlesDeactivated = 0;
 	
 }
 
+show_debug_message("finished = " + string(puzzlesFinished))
 

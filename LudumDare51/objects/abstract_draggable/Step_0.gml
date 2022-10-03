@@ -41,6 +41,7 @@ if (in_purg)
 	self.y = -1000
 	
 }
+
 else if (reset)
 {
 	

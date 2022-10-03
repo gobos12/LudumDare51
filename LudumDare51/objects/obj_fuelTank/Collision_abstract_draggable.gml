@@ -9,5 +9,6 @@ event_inherited();
 if(other.item_tag == "fuel")
 {
 	interacts = true;
-	gascan = other
+	abstract_interact.item = other
+	
 }
