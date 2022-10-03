@@ -14,11 +14,12 @@ if (interacts && mouse_check_button_released(mb_any) && !(obj_player.state_machi
 		obj_timeMachine.puzzlesFinished++;
 		show_debug_message("fuel tank triggered")
 		image_speed = 5;
-		audio_play_sound(snd_glugGlug, 23, true, 1)
+		audio_play_sound(snd_glugGlug, 23, false, .5)
 	}
 	else if (item.Type == "can0" || item.Type == "can1") {//if (ds_list_find_index(fuelOptions, fuelType) != -1) {
+		audio_play_sound(snd_glugGlug, 23, false, .5)
 		isAflame = true;
-		audio_play_sound(snd_glugGlug, 23, true, 1)
+		
 		
 
 	}
@@ -36,7 +37,7 @@ if (interacts && mouse_check_button_released(mb_any) && !(obj_player.state_machi
 
 else
 {
-	audio_stop_sound(snd_glugGlug)
+	//audio_stop_sound(snd_glugGlug)
 }
 
 

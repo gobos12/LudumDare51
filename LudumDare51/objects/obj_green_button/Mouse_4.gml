@@ -10,3 +10,4 @@ else{
 	obj_yellow_button.yellow_state = false
 	obj_red_button.red_state = false
 }
+
