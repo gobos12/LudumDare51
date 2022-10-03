@@ -16,10 +16,26 @@ if (self.x <= 1280 && obj_player.state_machine.state_name == "10")
 	
 }
 
+if (obj_player.state_machine.state_name == "transition")
+{
+	
+	reset = true
+	in_purg = false
+	
+}
+
 if (in_purg)
 {
 	
 	self.x = -1000
 	self.y = -1000
+	
+}
+else if (reset)
+{
+	
+	self.x = initial_x
+	self.y = initial_y
+	reset = false
 	
 }
