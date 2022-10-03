@@ -35,6 +35,10 @@ displayTime = ceil(gameTime / (INTERVAL/10));
 
 if (displayTime == (gameTime / (INTERVAL/10)))
 	audio_play_sound(Ticking, 18, false, .3)
+	
+if (obj_player.state_machine.state_name == "Transition") {
+	displayTime = 0
+}
 
 function getTime() {
 	return gameTime

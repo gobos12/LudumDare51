@@ -26,7 +26,7 @@ if (obj_player.state_machine.state_name == "transition")
 
 if (in_purg)
 {
-
+	
 	self.x = -1000
 	self.y = -1000
 	
