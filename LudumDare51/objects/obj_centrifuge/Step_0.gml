@@ -24,7 +24,3 @@ if (interacts && mouse_check_button_released(mb_any) && !isProcessing) { // Arra
 	interacts = false;
 }
 
-if (isProcessing)
-	audio_play_sound(snd_centrifuge, 32, true, .025, .2)
-else
-	audio_stop_sound(snd_centrifuge)
