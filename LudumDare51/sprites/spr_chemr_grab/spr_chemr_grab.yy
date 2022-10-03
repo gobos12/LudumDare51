@@ -82,6 +82,6 @@
   "nineSlice": null,
   "parent": {
     "name": "chem_result",
-    "path": "folders/Sprites/chem_result.yy",
+    "path": "folders/Sprites/Chem/chem_result.yy",
   },
 }

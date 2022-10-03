@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_fuelTank",
-  "spriteId": {
-    "name": "spr_fueltank_hitbox",
-    "path": "sprites/spr_fueltank_hitbox/spr_fueltank_hitbox.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

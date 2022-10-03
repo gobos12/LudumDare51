@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "abstract_interact",
-    "path": "objects/abstract_interact/abstract_interact.yy",
+    "name": "obj_open_close_controller",
+    "path": "objects/obj_open_close_controller/obj_open_close_controller.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

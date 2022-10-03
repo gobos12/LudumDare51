@@ -68,6 +68,6 @@
   "nineSlice": null,
   "parent": {
     "name": "gears0",
-    "path": "folders/Sprites/gears0.yy",
+    "path": "folders/Sprites/Gears/gears0.yy",
   },
 }
