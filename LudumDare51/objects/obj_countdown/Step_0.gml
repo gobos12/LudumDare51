@@ -30,12 +30,15 @@ forwardTime = step_count / room_speed;
 gameTime = initialTime - forwardTime;
 displayTime = ceil(gameTime / (INTERVAL/10));
 
-if (displayTime == (gameTime / (INTERVAL/10)))
+if (displayTime == (gameTime / (INTERVAL/10)) && obj_player.state_machine.state_name != "Transition")
 	audio_play_sound(Ticking, 18, false, .3)
 	
 if (obj_player.state_machine.state_name == "Transition") {
 	displayTime = 0
-	
+	playSound = true
+}
+else{
+	playSound = false
 }
 
 function getTime() {
@@ -47,5 +50,8 @@ function getDisplayTime() {
 function getForwardSeconds() {
 	return floor(forwardTime);
 }
+
+if(playSound)
+	audio_play_sound(snd_reset, 55, false, 1)
 
 //show_debug_message("forward time = " + string(forwardTime)
