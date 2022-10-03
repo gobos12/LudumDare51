@@ -83,6 +83,7 @@
     {"id":{"name":"bg_10sec02","path":"sprites/bg_10sec02/bg_10sec02.yy",},"order":6,},
     {"id":{"name":"spr_smoke","path":"sprites/spr_smoke/spr_smoke.yy",},"order":1,},
     {"id":{"name":"spr_triangle","path":"sprites/spr_triangle/spr_triangle.yy",},"order":3,},
+    {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":3,},
     {"id":{"name":"obj_scissors","path":"objects/obj_scissors/obj_scissors.yy",},"order":8,},
     {"id":{"name":"obj_gas0","path":"objects/obj_gas0/obj_gas0.yy",},"order":0,},
     {"id":{"name":"spr_note_random4","path":"sprites/spr_note_random4/spr_note_random4.yy",},"order":9,},
