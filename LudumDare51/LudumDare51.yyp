@@ -35,6 +35,7 @@
     {"id":{"name":"bg_end","path":"sprites/bg_end/bg_end.yy",},"order":7,},
     {"id":{"name":"restart_hover","path":"sprites/restart_hover/restart_hover.yy",},"order":8,},
     {"id":{"name":"obj_fuelTank","path":"objects/obj_fuelTank/obj_fuelTank.yy",},"order":0,},
+    {"id":{"name":"object_scaleControl","path":"objects/object_scaleControl/object_scaleControl.yy",},"order":10,},
     {"id":{"name":"obj_centrifuge","path":"objects/obj_centrifuge/obj_centrifuge.yy",},"order":0,},
     {"id":{"name":"spr_chemp_hover","path":"sprites/spr_chemp_hover/spr_chemp_hover.yy",},"order":4,},
     {"id":{"name":"spr_note_random6","path":"sprites/spr_note_random6/spr_note_random6.yy",},"order":11,},

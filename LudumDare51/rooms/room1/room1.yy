@@ -79,6 +79,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7260B0FA","properties":[],"isDnd":false,"objectId":{"name":"obj_final51","path":"objects/obj_final51/obj_final51.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_515C564","properties":[],"isDnd":false,"objectId":{"name":"obj_final52","path":"objects/obj_final52/obj_final52.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48B2824E","properties":[],"isDnd":false,"objectId":{"name":"obj_final5253","path":"objects/obj_final5253/obj_final5253.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.58500004,"scaleY":0.58500004,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DE9CC90","properties":[],"isDnd":false,"objectId":{"name":"object_scaleControl","path":"objects/object_scaleControl/object_scaleControl.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":-64.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Controllers","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14A27E3D","properties":[],"isDnd":false,"objectId":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":320.0,},
@@ -156,6 +157,7 @@
     {"name":"inst_7260B0FA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_515C564","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_48B2824E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7DE9CC90","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
