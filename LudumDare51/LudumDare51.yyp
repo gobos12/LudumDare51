@@ -197,6 +197,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Clues","folderPath":"folders/Objects/Items/Clues.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Gas","folderPath":"folders/Objects/Items/Gas.yy","order":20,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Gears","folderPath":"folders/Objects/Items/Gears.yy","order":21,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"start and end buttons","folderPath":"folders/Objects/Items/start and end buttons.yy","order":22,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
