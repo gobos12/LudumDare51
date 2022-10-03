@@ -36,8 +36,9 @@ else
 if ((obj_player.state_machine.state_name == "Transition")) {
 	image_index = 0;
 	if (isNeutralized) {
-		instance_destroy(chemicalFire)
-		chemicalFire = pointer_null
+		//instance_destroy(chemicalFire)
+		//chemicalFire = pointer_null
+		//i commented these lines out bc they currently cause an error, there is no fire
 	}
 	isAflame = false;
 	isNeutralized = false;
