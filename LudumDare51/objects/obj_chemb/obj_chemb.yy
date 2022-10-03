@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_chemb",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_chemb_norm",
+    "path": "sprites/spr_chemb_norm/spr_chemb_norm.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
