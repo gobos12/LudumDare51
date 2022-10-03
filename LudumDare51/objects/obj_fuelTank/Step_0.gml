@@ -3,10 +3,13 @@
 
 state_machine.step()
 
-tag = fuelType;
+fuelType = tag
+
 if (interacts && isEmpty()) {
 	if (fuelType == correctFuelType) {
 		isFueled = true;
+		show_debug_message("fueled")
+
 		obj_timeMachine.puzzlesFinished++;
 	}
 	else if (ds_list_find_index(fuelOptions, fuelType) != -1) {
@@ -18,6 +21,7 @@ if (interacts && isEmpty()) {
 		obj_timeMachine.puzzlesDeactivated++;
 	}
 }
+
 
 
 

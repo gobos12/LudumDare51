@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_fuelTank",
   "spriteId": {
-    "name": "spr_fueltank_hitbox",
-    "path": "sprites/spr_fueltank_hitbox/spr_fueltank_hitbox.yy",
+    "name": "spr_gauge",
+    "path": "sprites/spr_gauge/spr_gauge.yy",
   },
   "solid": false,
   "visible": true,

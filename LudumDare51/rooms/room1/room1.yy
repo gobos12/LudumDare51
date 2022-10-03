@@ -69,6 +69,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2863D94B","properties":[],"isDnd":false,"objectId":{"name":"obj_gas0","path":"objects/obj_gas0/obj_gas0.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2912.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AD9674D","properties":[],"isDnd":false,"objectId":{"name":"obj_gas1","path":"objects/obj_gas1/obj_gas1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3264.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71B30CD3","properties":[],"isDnd":false,"objectId":{"name":"obj_gas2","path":"objects/obj_gas2/obj_gas2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3104.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CB1684F","properties":[],"isDnd":false,"objectId":{"name":"obj_fuelTank","path":"objects/obj_fuelTank/obj_fuelTank.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":448.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Controllers","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14A27E3D","properties":[],"isDnd":false,"objectId":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":320.0,},
@@ -135,6 +136,7 @@
     {"name":"inst_266B391F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4BDE65D9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_168ABFF6","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_CB1684F","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
