@@ -7,6 +7,7 @@ image_index = 0
 
 if (interacts && mouse_check_button_released(mb_any) && !isProcessing) { // ArrayUtility().contains(chemicals, tag)) {
 	abstract_interact.item.in_purg = true; 
+	
 	isProcessing = true;
 	input = tag
 	
@@ -20,8 +21,12 @@ if (interacts && mouse_check_button_released(mb_any) && !isProcessing) { // Arra
 	}
 	else if(abstract_interact.item.Type == "pi"){
 		alarm[2] = room_speed * (1 * 1.5);
+		show_debug_message("chem")
 	}
 	
 	interacts = false;
 }
 
+if ((obj_player.state_machine.state_name == "Transition")) {
+	isProcessing = false
+}

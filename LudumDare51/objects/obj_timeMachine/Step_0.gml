@@ -26,16 +26,21 @@ switch (obj_player.state_machine.state_name) {
 
 if (obj_countdown.gameTime == 1)
 {
+	show_debug_message("puzzles finished = " + string(puzzlesFinished))
+	show_debug_message("puzzles deactive = " + string(puzzlesDeactivated))
+	show_debug_message("code = " + string(codeEntered))
+	
+	
 	instance_create_layer(1280/2, 720/2, "Items_In_Use", obj_transition)
+	obj_player.state_machine.state_name = "Transition"
+	alarm[0] = room_speed * 3;
 	
-	if(puzzlesFinished == 0) obj_player.state_machine.state_name = "10"
-	if(puzzlesFinished == 1) obj_player.state_machine.state_name = "20"
-	if(puzzlesFinished == 2) obj_player.state_machine.state_name = "30"
-	
-	puzzlesFinished = 0;
-	puzzlesDeactivated = 0;
 	
 }
 
-show_debug_message("finished = " + string(puzzlesFinished))
+if(codeEntered && puzzlesDeactivated == 2){
+		room_goto(end_room)
+	}
+
+
 

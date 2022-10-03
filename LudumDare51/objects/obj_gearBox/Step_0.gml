@@ -6,15 +6,14 @@ event_inherited()
 
 if (obj_player.state_machine.state_name == "30"){
 	isOpenable = true;
-	show_debug_message("changing image")
 }
 else
 	isOpenable = false;
 
 if (interacts && mouse_check_button_released(mb_any) && !(obj_player.state_machine.state_name == "Transition")) {
-	
+
 	if (opened) {
-		if (item.Type == "scissors" && !isCut) {
+		if (abstract_interact.item.Type == "scissors" && !isCut) {
 			isCut = true;
 			abstract_interact.item.in_purg = true
 			obj_tm.image_index = 5
@@ -33,7 +32,7 @@ if (interacts && mouse_check_button_released(mb_any) && !(obj_player.state_machi
 			else if(gear1Placed) obj_tm.image_index = 3
 		}
 		if (!gear1Placed && (item.Type == "gear1")) {
-			gear.in_purg = true
+			abstract_interact.item.in_purg = true
 			gear1Placed = true;
 			isOpenable = false;
 			if(!gear0Placed) obj_tm.image_index = 1
@@ -46,7 +45,6 @@ if (interacts && mouse_check_button_released(mb_any) && !(obj_player.state_machi
 
 if (gear0Placed && gear1Placed && !isFixed) {
 	isRepaired = true;
-	show_debug_message("gear state= " + string(isRepaired))
 	obj_timeMachine.puzzlesFinished++;	
 	isFixed = true
 }

@@ -34,6 +34,7 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"Type","path":"objects/abstract_draggable/abstract_draggable.yy",},"objectId":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"value":"scissors",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"item_tag","path":"objects/abstract_draggable/abstract_draggable.yy",},"objectId":{"name":"abstract_draggable","path":"objects/abstract_draggable/abstract_draggable.yy",},"value":"gear",},
   ],
   "parent": {
     "name": "Items",

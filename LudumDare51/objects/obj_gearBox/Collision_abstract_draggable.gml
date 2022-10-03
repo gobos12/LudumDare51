@@ -4,6 +4,4 @@
 if(other.item_tag == "gear"){
 	interacts = true;
 	abstract_interact.item = other
-	
-	//show_debug_message(item)
 }
