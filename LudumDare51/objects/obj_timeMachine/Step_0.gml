@@ -8,18 +8,21 @@ switch (obj_player.state_machine.state_name) {
   case "10":
 	layer_set_visible("bg_10sec", true)
 	layer_set_visible("bg_20sec", true)
+	show_debug_message("bg 10")
   break;
     
   // When the player is between 10 and 20 seconds
   case "20":
 	layer_set_visible("bg_10sec", false)
 	layer_set_visible("bg_20sec", true)
+	show_debug_message("bg 20")
   break;
     
   // When the player is between 20 and 30 seconds
   case "30":
 	layer_set_visible("bg_10sec", false)
 	layer_set_visible("bg_20sec", false)
+	show_debug_message("bg 30")
   break;
   
 }
@@ -32,7 +35,7 @@ if (obj_countdown.gameTime == 1)
 	
 	
 	instance_create_layer(1280/2, 720/2, "Items_In_Use", obj_transition)
-	obj_player.state_machine.state_name = "Transition"
+	obj_player.state_machine.transition("Transition")
 	alarm[0] = room_speed * 3;
 	
 	
