@@ -11,6 +11,7 @@ randomize()
 
 // Constant parallel arrays
 chemicals = ["obj_chemb", "obj_cheme", "obj_chemp"]
+// chemicalNames = ["omega", "sigma", "pi"]
 processTimes = [21, 23, 25];
 input = "NONE"
 output = "NONE"
