@@ -33,6 +33,9 @@ forwardTime = step_count / room_speed;
 gameTime = initialTime - forwardTime;
 displayTime = floor(gameTime / (INTERVAL/10));
 
+if (displayTime == (gameTime / (INTERVAL/10)))
+	audio_play_sound(Ticking, 18, false, .5)
+
 function getTime() {
 	return gameTime
 }

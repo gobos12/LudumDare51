@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_clockTick.wav",
-  "duration": 85.333336,
+  "duration": 96.0,
   "parent": {
     "name": "Effects",
     "path": "folders/Sounds/Effects.yy",
