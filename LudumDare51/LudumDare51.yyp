@@ -159,6 +159,7 @@
     {"id":{"name":"obj_gas1","path":"objects/obj_gas1/obj_gas1.yy",},"order":1,},
     {"id":{"name":"spr_blue_button","path":"sprites/spr_blue_button/spr_blue_button.yy",},"order":0,},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},"order":3,},
+    {"id":{"name":"spr_gauge","path":"sprites/spr_gauge/spr_gauge.yy",},"order":0,},
     {"id":{"name":"spr_rcursor","path":"sprites/spr_rcursor/spr_rcursor.yy",},"order":2,},
     {"id":{"name":"obj_cheme","path":"objects/obj_cheme/obj_cheme.yy",},"order":2,},
     {"id":{"name":"ArrayUtility","path":"scripts/ArrayUtility/ArrayUtility.yy",},"order":2,},
