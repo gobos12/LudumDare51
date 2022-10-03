@@ -78,7 +78,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3535F38C","properties":[],"isDnd":false,"objectId":{"name":"obj_timeMachine","path":"objects/obj_timeMachine/obj_timeMachine.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_266B391F","properties":[],"isDnd":false,"objectId":{"name":"obj_fuelTank","path":"objects/obj_fuelTank/obj_fuelTank.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":1984.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D8A8AAF","properties":[],"isDnd":false,"objectId":{"name":"obj_clock","path":"objects/obj_clock/obj_clock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":64.0,},
-      ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_DA220BC","spriteId":{"name":"spr_desk","path":"sprites/spr_desk/spr_desk.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.384,"scaleY":1.128,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":352.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1EFF3859","spriteId":{"name":"spr_cabinets","path":"sprites/spr_cabinets/spr_cabinets.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":96.0,},
@@ -131,6 +131,9 @@
     {"name":"inst_7AEE8A03","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_513F8C86","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_39869F90","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_272B73E0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4179BE03","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5C626399","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
