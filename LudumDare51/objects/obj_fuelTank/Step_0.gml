@@ -4,6 +4,7 @@
 state_machine.step()
 event_inherited();
 
+
 fuelType = tag
 
 if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transition")) {	
@@ -11,20 +12,21 @@ if (interacts && isEmpty() && !(obj_player.state_machine.state_name == "Transiti
 		isFueled = true;
 		obj_timeMachine.puzzlesFinished++;
 		image_speed = 5;
-		audio_play_sound(snd_glugGlug, 23, true, .25)
+		audio_play_sound(snd_glugGlug, 23, true, 1)
 	}
 	else if (ds_list_find_index(fuelOptions, fuelType) != -1) {
 		isAflame = true;
-		audio_play_sound(snd_glugGlug, 23, true, .25)
+		audio_play_sound(snd_glugGlug, 23, true, 1)
 		
+
 	}
 	else if (fuelType == chemicalName) {
-		// ACTUAL FIRE
+		// More conditions required to see if outputChemical came from correct reactant
 		isNeutralized = true;
 		obj_timeMachine.puzzlesDeactivated++;
-		chemicalFire = instance_create_layer(x - 100, y - 100, "Items_In_Use", obj_fire)
 	}
 }
+
 else
 {
 	audio_stop_sound(snd_glugGlug)
@@ -41,6 +43,7 @@ if ((obj_player.state_machine.state_name == "Transition")) {
 	isNeutralized = false;
 	isFueled = false;
 }
+
 
 tag = "NONE"
 

@@ -8,7 +8,6 @@ switch (obj_player.state_machine.state_name) {
   case "10":
 	layer_set_visible("bg_10sec", true)
 	layer_set_visible("bg_20sec", true)
-	layer_set_visible("L_Assets", false)
   break;
     
   // When the player is between 10 and 20 seconds
@@ -22,8 +21,14 @@ switch (obj_player.state_machine.state_name) {
 	layer_set_visible("bg_10sec", false)
 	layer_set_visible("bg_20sec", false)
   break;
-    
   
+}
+
+if (obj_countdown.gameTime == 1)
+{
+
+	instance_create_layer(1280/2, 720/2, "Items_In_Use", obj_transition)
+	
 }
 
 
