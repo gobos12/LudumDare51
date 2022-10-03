@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_speed = 0;
-image_index = 0;
 
-interacts = false
-tag = "NONE"
+audio_play_sound(mus_low, 62, true, 10);
 
