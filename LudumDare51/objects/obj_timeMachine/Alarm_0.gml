@@ -8,3 +8,4 @@
 	
 		puzzlesFinished = 0;
 		puzzlesDeactivated = 0;
+		codeEntered = false;
