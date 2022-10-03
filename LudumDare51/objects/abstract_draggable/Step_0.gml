@@ -8,3 +8,18 @@ if (grabbed = true)
 	self.y = mouse_y
 	
 }
+
+if (self.x <= 1280 && obj_player.state_machine.state_name == "10")
+{
+
+	in_purg = true
+	
+}
+
+if (in_purg)
+{
+
+	self.x = -1000
+	self.y = -1000
+	
+}
