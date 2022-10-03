@@ -8,15 +8,21 @@ if (interacts && isEmpty()) {
 	if (fuelType == correctFuelType) {
 		isFueled = true;
 		obj_timeMachine.puzzlesFinished++;
+		audio_play_sound(snd_glugGlug, 23, true, .25)
 	}
 	else if (ds_list_find_index(fuelOptions, fuelType) != -1) {
 		isAflame = true;
+		audio_play_sound(snd_glugGlug, 23, true, .25)
 	}
 	else if (fuelType == chemicalName) {
 		// More conditions required to see if outputChemical came from correct reactant
 		isNeutralized = true;
 		obj_timeMachine.puzzlesDeactivated++;
 	}
+}
+else
+{
+	audio_stop_sound(snd_glugGlug)
 }
 
 

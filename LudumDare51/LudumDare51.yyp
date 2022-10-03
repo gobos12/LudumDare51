@@ -52,7 +52,7 @@
     {"id":{"name":"audio_manager","path":"objects/audio_manager/audio_manager.yy",},"order":1,},
     {"id":{"name":"fsm_playerTemporal","path":"scripts/fsm_playerTemporal/fsm_playerTemporal.yy",},"order":1,},
     {"id":{"name":"spr_chemb_grab","path":"sprites/spr_chemb_grab/spr_chemb_grab.yy",},"order":3,},
-    {"id":{"name":"Centrifuge","path":"sounds/Centrifuge/Centrifuge.yy",},"order":5,},
+    {"id":{"name":"snd_centrifuge","path":"sounds/snd_centrifuge/snd_centrifuge.yy",},"order":5,},
     {"id":{"name":"Radio_Static","path":"sounds/Radio_Static/Radio_Static.yy",},"order":2,},
     {"id":{"name":"spr_dust","path":"sprites/spr_dust/spr_dust.yy",},"order":2,},
     {"id":{"name":"spr_chemp_norm","path":"sprites/spr_chemp_norm/spr_chemp_norm.yy",},"order":5,},
