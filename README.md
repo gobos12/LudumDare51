@@ -1,6 +1,7 @@
 # Waddle in Time
 
 **A fast-paced, time-based game created for Ludum Dare 51.**
+
 Created in GameMaker Studio.
 
 ### Authors
