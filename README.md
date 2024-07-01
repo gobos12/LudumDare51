@@ -7,7 +7,7 @@ Created in GameMaker Studio.
 ### Authors
 - Orion Dobos
 - Suhaas Godavarthy
-- Casey Joe
+- Casey Johnson
 - Madeline Mayans
 - Hayden Wachs
 
